@@ -20,8 +20,6 @@ Then the page with the URL containing 'boards' is loaded
 Scenario: Verify user Profile (not completed)
 
 When I click on element located `By.xpath(//*[@id="header"]/div[2]/button[4])`
-
-When I click on element located `By.xpath(//*[@id="header"]/div[2]/button[4])`
 When I click on element located `By.xpath(//a[@data-test-id="header-member-menu-settings"]/span[text()="Settings"])`
 When I wait until the page has the title 'Settings | Trello'
 When I click on element located `By.xpath(//a[text()="go to your Atlassian account."])`
